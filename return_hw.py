@@ -565,21 +565,25 @@
 
 
 
-class Mother ():
-  def mother(self):
-    print(' это родителткий класс ')
+#class Mother ():
+#  def mother(self):
+#    print(' это родителткий класс ')
+#
+#class Son(Mother):
+#3  def son (self):
+ #   print(' это дочерний класс , взят с класса Mother')
+#
+#class Doughter(Son):
+#  def doughter (self):
+ #   print(' это тоже дочерний класс , взятый с класса Son')
 
-class Son(Mother):
-  def son (self):
-    print(' это дочерний класс , взят с класса Mother')
+#family = Mother()
+#family.mother()
+#family = Son()
+#family.son()
+#family = Doughter()
+#family.doughter()
 
-class Doughter(Son):
-  def doughter (self):
-    print(' это тоже дочерний класс , взятый с класса Son')
 
-family = Mother()
-family.mother()
-family = Son()
-family.son()
-family = Doughter()
-family.doughter()
+
+
